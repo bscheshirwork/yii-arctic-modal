@@ -1,0 +1,38 @@
+{
+    "name": "bscheshir/yii-arctic-modal",
+    "description": "Yii extension wrapper for arctic-modal",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BSCheshir",
+            "email": "bscheshir@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/bscheshirwork/yii-arctic-modal"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "vjik/arctic-modal",
+                "version": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/vjik/arcticModal",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "config": "./"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "vjik/arctic-modal": "dev-master"
+    }
+}
