@@ -20,7 +20,7 @@
                 "version": "dev-master",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/vjik/arcticModal",
+                    "url": "https://github.com/vjik/arcticModal.git",
                     "reference": "master"
                 }
             }
